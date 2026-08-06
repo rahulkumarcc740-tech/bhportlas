@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KINETIC | Urban Sports & Sneakers</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/motion.css">
+</head>
+<body>
+  
+  <div class="noise-overlay"></div>
+
+  <div class="page-transition">
+    <div class="loader-text">KINETIC</div>
+  </div>
+
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-brand">
+        <h4 style="margin:0; font-size: 2rem;">KINETIC</h4>
+      </a>
+      <ul class="nav-links flex gap-8 items-center">
+        <li><a href="drop.html" class="nav-link">Drop 01</a></li>
+        <li><a href="cultura.html" class="nav-link">Cultura</a></li>
+        <li><a href="drop.html" class="btn" style="padding: 0.5rem 1rem; border: none;">Shop Now</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Brutalist Hero -->
+    <section class="section" style="min-height: 100vh; display: flex; flex-direction: column; justify-content: center; padding-top: 15vh;">
+      <div class="container">
+        
+        <div style="border-bottom: 4px solid var(--color-surface); margin-bottom: var(--space-4);">
+          <h1 class="reveal-text">
+            <span>THE STREET</span>
+          </h1>
+          <h1 class="reveal-text delay-1 text-accent" style="text-align: right; margin-top: -2rem;">
+            <span>IS OURS.</span>
+          </h1>
+        </div>
+        
+        <div class="grid grid-asym items-center">
+          <div class="hard-fade-up delay-2">
+             <img src="https://images.unsplash.com/photo-1515523110800-9415d13b84a8?q=80&w=1974&auto=format&fit=crop" alt="Sneaker" style="border: 2px solid var(--color-border); aspect-ratio: 16/9; object-fit: cover;">
+          </div>
+          <div class="hard-fade-up delay-3">
+            <h3 style="margin-bottom: var(--space-2);">No rules. Just motion.</h3>
+            <p>La calle no perdona. Necesitas agarre, necesitas estilo y necesitas velocidad. Kinetic es la colisión entre el baloncesto, el skate y la cultura hypebeast.</p>
+            <a href="drop.html" class="btn" style="margin-top: var(--space-2);">Ver Último Drop</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Marquee -->
+    <div class="marquee-container hard-fade-up">
+      <div class="marquee-content">
+        STREETWEAR &middot; SNEAKERS &middot; KINETIC &middot; URBAN ATHLETICS &middot; NO RULES &middot; STREETWEAR &middot; SNEAKERS &middot; KINETIC &middot; URBAN ATHLETICS &middot; NO RULES &middot; 
+      </div>
+    </div>
+
+    <!-- Editorial Section -->
+    <section class="section">
+      <div class="container">
+        <div class="grid grid-cols-2">
+          
+          <div class="hard-fade-up">
+            <h2 style="font-size: clamp(3rem, 8vw, 6rem); margin-bottom: var(--space-8);">BORN IN CONCRETE.</h2>
+          </div>
+          
+          <div class="grid grid-cols-2 gap-4">
+             <div class="hard-fade-up delay-1">
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=2070&auto=format&fit=crop" alt="Red Sneaker" style="aspect-ratio: 3/4; object-fit: cover; border: 2px solid var(--color-border);">
+             </div>
+             <div class="hard-fade-up delay-2" style="margin-top: var(--space-12);">
+                <img src="https://images.unsplash.com/photo-1514989940723-e8e51635b782?q=80&w=2070&auto=format&fit=crop" alt="Streetball" style="aspect-ratio: 3/4; object-fit: cover; border: 2px solid var(--color-border);">
+             </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="section bg-surface" style="padding-bottom: var(--space-8); margin-top: var(--space-16);">
+    <div class="container flex justify-between items-center" style="border-top: 2px solid var(--color-bg); padding-top: var(--space-4);">
+      <p style="margin: 0; color: var(--color-text-inverted);">&copy; 2026 KINETIC ATHLETICS.</p>
+      <div class="flex gap-4">
+        <a href="#" class="nav-link" style="color: var(--color-bg);">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
